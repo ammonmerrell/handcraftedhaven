@@ -23,14 +23,12 @@ const fasci = Fascinate({
 export default function Home() {
   return (
     <>
-      <body className={styles.background}>
         <div>
           <h1 className={styles.quint}>Handcrafted Haven</h1>
         </div>
         <div>
           <p>Come one come all to fantabulous online store where even you will be able to be a business owner and sell your cluttering items on this wonderful and easy-to-use website.</p>
         </div>
-      </body>
     </>
   )
 }
