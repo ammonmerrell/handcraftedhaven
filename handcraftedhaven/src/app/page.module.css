@@ -1,9 +1,20 @@
-.page {
-  --background: #fafafa;
-  --foreground: #fff;
 
-  --text-primary: #000;
-  --text-secondary: #666;
+.quint{
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  background-color: #C2DEF9;;
+}
+
+/* .page {
+  --background: #C2DEF9;
+  --foreground: #184709;
+
+  --text-primary: #092948;
+  --text-secondary: #FFF9E0;
 
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
@@ -92,10 +103,10 @@ a.primary {
 
 a.secondary {
   border-color: var(--button-secondary-border);
-}
+} */
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -139,4 +150,4 @@ a.secondary {
     --button-secondary-hover: #1a1a1a;
     --button-secondary-border: #1a1a1a;
   }
-}
+} */
