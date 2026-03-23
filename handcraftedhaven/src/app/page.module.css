@@ -1,16 +1,96 @@
-/* .page {
-  --background: #fafafa;
-  --foreground: #fff;
+:root {
+  --primary-bg-color: #C2DEF9;
+  --primary-text-color: #092948;
+  --secondary-bg-color: #184709;
+  --secondary-text-color: #FFF9E0;
+}
 
-.quint{
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  text-align: center;
+  /* This is for the paragraphs */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quintessential {
   font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+.fascinate {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.picture {
+  margin-bottom: 50px;
+}
+
+.underlying {
+  font-size: 10px;
+  font-family: "Fascinate", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-body {
-  background-color: #C2DEF9;;
+/* ********************* */
+
+/* pasted styles.css page from  team meeting:*/
+
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oswald:wght@200..700&family=Quintessential&display=swap%22 rel="stylesheet"> */
+ 
+ 
+ 
+/* :root {
+    --primary-bg-color: #C2DEF9;
+    --primary-text-color: #092948;
+    --secondary-bg-color: #184709;
+    --secondary-text-color: #FFF9E0;
 }
+
+ 
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.oswald-700 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.page { 
+  color:var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+} */
+
+/* ***************************** */
 
 /* .page {
   --background: #C2DEF9;
@@ -154,48 +234,3 @@ a.secondary {
     --button-secondary-border: #1a1a1a;
   }
 } */ 
-
-
-
-/* pasted styles.css page from  team meeting:*/
-
-
-/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oswald:wght@200..700&family=Quintessential&display=swap%22 rel="stylesheet"> */
- 
- 
- 
-:root {
-    --primary-bg-color: #C2DEF9;
-    --primary-text-color: #092948;
-    --secondary-bg-color: #184709;
-    --secondary-text-color: #FFF9E0;
-}
-
- 
-.quintessential-regular {
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-}
- 
-.fascinate-regular {
-  font-family: "Fascinate", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
- 
-.oswald-700 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
-
-.page { 
-  color:var(--primary-text-color);
-  background-color: var(--primary-bg-color);
-}
