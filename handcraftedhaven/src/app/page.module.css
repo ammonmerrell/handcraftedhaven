@@ -2,8 +2,22 @@
   --background: #fafafa;
   --foreground: #fff;
 
-  --text-primary: #000;
-  --text-secondary: #666;
+.quint{
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #C2DEF9;;
+}
+
+/* .page {
+  --background: #C2DEF9;
+  --foreground: #184709;
+
+  --text-primary: #092948;
+  --text-secondary: #FFF9E0;
 
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
@@ -92,7 +106,7 @@ a.primary {
 
 a.secondary {
   border-color: var(--button-secondary-border);
-}
+} */
 
 /* Enable hover only on non-touch devices */
 /* @media (hover: hover) and (pointer: fine) {
